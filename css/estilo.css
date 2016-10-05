@@ -3,17 +3,26 @@ body{
 	font-size: 16px;
 	background-color: #FFFFFF;
 }
+
 h1{
 	font-size: 1.6em;
 	font-family: "Ubuntu-R", Verdana;
 	text-align: center;
 	text-shadow: 1px 0.5px 0px #FFF;
 }
+
 h3{
     font-family: "Ubuntu-M", Verdana;
 	text-align: center;
 	padding: 5px;
 }
+
+h4{
+	padding: 7px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
 header{
 	background-color: #8BC34A;
 	width: 100%;
@@ -44,6 +53,7 @@ section{
 	border-right: 2px solid #FF9100;
 	border-radius: 0px 0px 30px 30px;
 }
+
 section.contenido{
 	padding: 15px;
 	display: flex;
@@ -102,4 +112,15 @@ border-radius: 0px 0px 0px 30px;
 }
 .code{
 	 background-color: #1D1F21;
+}
+
+
+/*Listas*/
+ul{
+	text-align: left;
+}
+
+ul li{
+	padding-left: 13px;
+	margin: 5px 0px;
 }
