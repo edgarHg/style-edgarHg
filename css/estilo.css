@@ -1,16 +1,16 @@
 body{
-	font-family: "Ubuntu-L";
+	font-family: "Ubuntu-L", Helvetica, sans-serif;
 	font-size: 16px;
 	background-color: #FFFFFF;
 }
 h1{
 	font-size: 1.6em;
-	font-family: "Ubuntu-R";
+	font-family: "Ubuntu-R", Verdana;
 	text-align: center;
 	text-shadow: 1px 0.5px 0px #FFF;
 }
 h3{
-    font-family: "Ubuntu-M";
+    font-family: "Ubuntu-M", Verdana;
 	text-align: center;
 	padding: 5px;
 }
