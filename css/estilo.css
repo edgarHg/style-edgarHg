@@ -22,7 +22,12 @@ h4{
     text-align: left;
     color: rgba(0, 0, 0, 0.6);
 }
-
+label{
+	font-size: 1em;
+	padding: 7px;
+	display: inline-block;
+	font-family: 'Ubuntu-R';
+}
 header{
 	background-color: #8BC34A;
 	width: 100%;
@@ -61,6 +66,12 @@ section.contenido{
 }
 article{
 
+}
+section.contenido .article-1column{
+	width: 97%;
+	height: 600px;
+	padding: 1%;
+	text-align: center;
 }
 section.contenido .article-2columns{
 	width: 47%;
@@ -104,6 +115,7 @@ footer p{
 	text-align: center;
 	color: rgba(0, 0, 0, 0.5);
 }
+
 .border-radius-izq{
 border-radius: 0px 0px 0px 30px;
 }
@@ -114,7 +126,6 @@ border-radius: 0px 0px 0px 30px;
 	 background-color: #1D1F21;
 }
 
-
 /*Listas*/
 ul{
 	text-align: left;
@@ -123,4 +134,25 @@ ul{
 ul li{
 	padding-left: 13px;
 	margin: 5px 0px;
+}
+
+/*Barra de Progreso*/
+.contenedor-progreso{
+	height: 40px;
+	background-color: #FFD180;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.barra-total{
+	height: 10px;
+	width: 100%;
+	background-color: #FFAB40;
+}
+
+.barra-dinamica{
+	height: 10px;
+	width: 0%;
+	background-color: #FF6D00;
 }
